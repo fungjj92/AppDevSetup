@@ -4,10 +4,10 @@ Vagrant, docker, ansible, grunt, yeoman, bower setup and integration for future 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
 
-#About
+##About
 Development environment running an angular app (Yeoman scaffold) in a docker container inside a Vagrant VM. Ansible to set up Vagrant environment and install dependencies needed for Docker to run inside. Bower installs app dependencies within the docker machine ("app") running the app. Live reload by Grunt.
 
-# Installation
+## Installation
 
 In the terminal, run ``vagrant up``.
 Run ``vagrant provision``.
